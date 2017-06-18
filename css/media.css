@@ -1,0 +1,44 @@
+@media (min-width: 767px) {
+    #map {
+        height: 400px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:100px) and (max-width:800px) {
+    .top {
+        display: none !important;
+    }
+}
+
+@media (min-width:100px) and (max-width:800px) {
+    #main-nav .logo-menu {
+        display: block !important;
+    }
+}
+
+@media (min-width:100px) and (max-width:800px) {
+    .services-style-one .services-column {
+        width: 100% !important;
+        float: none !important;
+    }
+    .services-style-one .content-column {
+        float: none !important;
+        width: 100% !important;
+    }
+    .services-style-one .content-column .content-box {
+        float: none !important;
+    }
+    .sec-title h2>span {
+        border-bottom: none !important;
+        padding-bottom: 0px !important;
+    }
+    .section-heading h2>span {
+        border-bottom: none !important;
+        padding-bottom: 0px !important;
+    }
+    .services-column h2>span {
+        border-bottom: none !important;
+        padding-bottom: 0px !important;
+    }
+}
